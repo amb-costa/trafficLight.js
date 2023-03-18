@@ -1,12 +1,40 @@
+#app {
+    display: inline;
+    align-items: center;
+}
 
-/* 
+#stick {
+    background-color: black;
+    border-radius:2px;
+    position: relative;
+    width:50px;
+    height:80px;
+    margin:auto;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+#traffic {
+    background-color: black;
+    border-radius: 10px;
+    position:relative;
+    width: 200px;
+    height:500px;
+    padding: 10px;
+    margin:auto;
+}
 
-*/
+.light {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    position: relative;
+    margin:8px auto;
+}
+
+.red {background-color: red}
+.yellow {background-color: yellow}
+.green {background-color: green}
+
+.glow {
+    box-shadow: 0px 0px 25px 10px white;
+}
